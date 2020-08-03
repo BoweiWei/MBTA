@@ -1,5 +1,17 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+In this project, it will shows a MBTA train departure board at North Station using MBTA API V3. 
+
+First column is for the carrier of the train: MBTA of course!
+Second one is the departure time for the train.
+Third column belongs to the final destination.
+Fourth is the train number.
+Fifth and sixth are the track number or platform number and status.
+
+Platform information somehow is not available in the prediction API in MBTA API V3. 
+
+To run this code: Please use npm install in the MBTA folder for the first time to install all the package it required and run npm start to run it.
+
 ## Available Scripts
 
 In the project directory, you can run:
